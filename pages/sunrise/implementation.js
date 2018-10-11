@@ -18,7 +18,7 @@ export default () => (
     <P>
     This program is written in C++ with the openFramework toolkit. OpenFramework
     is designed for creative coding, and supports libraries for powerful graphics and animation
-    tools [openFrameworks, 2015]. OpenFramework gives a lot of support and tools to
+    tools. OpenFramework gives a lot of support and tools to
     artists and programmers to create computational art work.
     </P>
 
@@ -31,7 +31,7 @@ export default () => (
     <P>
     Instagram reached 300 million monthly active users in 2015 and its users share
     more than 70 million photos and videos each day. There have been over 20 billion photos
-    shared on the website [Social and Singapore, 2015]. The popularity of Instagram makes
+    shared on the website. The popularity of Instagram makes
     a huge photography database. However, the abundance of Instagram images bring some
     down sides as well, such as people misusing the hashtags and tagging unrelated materials
     as ’sunrise’, for example, selfies, advertisements, etc. Instagram users tend to put excessive
@@ -44,13 +44,13 @@ export default () => (
     To combat this, I started to collect features to distinguish good sunrise images and
     unrelated ones. In this paper, "Sunset scene classification using simulated image recomposition",
     the authors claim sunsets were easily separated from mountain and forest scenes.
-    Color was found to be the most salient [Bautell et al., 2003] , confirming our intuition that
+    Color was found to be the most salient, confirming our intuition that
     sunsets are recognizable primarily by their brilliant, warm colors. They also believe that
     spatial information should be incorporated to distinguish sunsets from other scenes containing
     warm colors, such as those of desert rock formations and fireworks. Therefore, they
     used spatial color moments, dividing the image into 49 regions using a 7 x 7 grid and computing
     the mean and variance of each band of an Luv-transformed image. This yields 49 x
-    2 x 3 = 294 features [Bautell et al., 2003]. However, OpenFramework does not support the
+    2 x 3 = 294 features. However, OpenFramework does not support the
     Luv color space. This classifier takes the the mean and variance of each band in the HBV
     color space instead.
     </P>
@@ -87,8 +87,7 @@ export default () => (
     </P>
 
     <P>
-    As we can see from the result table, the classifier behaves fairly well with a
-    correct classified rate of 69.9%.
+    The classifier behaves fairly well with a correct classified rate of 69.9%.
     In this project, it was more important for the classifier to identify incorrect images
     rather than to be able to identify every single good image. As we can see from the ROC
     graphs from the bad class value, the steep curve indicates a strong signal to noise ratio. An
@@ -129,15 +128,18 @@ export default () => (
     </P>
 
     <P>
-    I had an overarching goal to recreate a sunrise composition which can show the
-    smooth color gradient of the sky. After observing many sunrise images and performing
-    many trial experiments, I found a way to translate the smooth gradient of sky colors to
+    After observing many sunrise images and performing many trial experiments,
+    I found a way to translate the smooth gradient of sky colors to
     the composition. In photography, objects appear dark as a silhouette when put in front of
-    a bright background (see figure 7: the objects that are in red rectangles appear as silhouette).
+    a bright background (see image below: the objects that are in red rectangles appear as silhouette).
     Silhouettes became helpful in extracting sky colors because dark colors of silhouette
     are easy to identify. It was helpful to avoid taking those dark pixels into account when
     extracting sky colors from the images.
     </P>
+
+    <Figure wide>
+      <Image src="https://github.com/kikolam/site/raw/master/resources/silhouette.png" />
+    </Figure>
 
     <P>
     I extracted the colors using a simple algorithm. The sunrise composition is
