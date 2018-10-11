@@ -6,11 +6,11 @@ import Head from 'next/head'
 export default () => (
   <Page>
     <Head>
-      <title>Writing</title>
+      <title>Tech Specs</title>
     </Head>
     <div className="posts">
       {
-        posts.length > 0 ? 
+        posts.length > 0 ?
           posts.map(({ id, date, title }) => (
             <Post 
               id={id}

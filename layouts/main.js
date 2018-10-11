@@ -5,8 +5,8 @@ export default ({ children }) => (
   <div className="main">
     <div className="logo">
       <nav>
-        <Link href="/"><a>hoskinsa.ca</a></Link>
-        <a className="icon" target="_blank" href="mailto:andrew@andrewhoskins.ca">(contact)</a>
+        <Link href="/"><a>kikolam.com</a></Link>
+        <a className="icon" target="_blank" href="mailto:kiko.lam.hk@gmail.com">(contact)</a>
       </nav>
     </div>
 

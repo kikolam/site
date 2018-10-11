@@ -1,59 +1,44 @@
 {
   "posts": [
     {
-      "id": "ui-component-considerations",
-      "date": "August 13, 2017",
-      "title": "UI Component Considerations"
+      "id": "abstract",
+      "date": "October 1, 2018",
+      "title": "What is it?"
     },
     {
-      "id": "the-1-1",
-      "date": "August 20, 2017",
-      "title": "The 1-1"
+      "id": "introduction",
+      "date": "October 2, 2018",
+      "title": "Introduction"
     },
     {
-      "id": "opt-in",
-      "date": "December 12, 2017",
-      "title": "Opt-in"
+      "id": "implementation",
+      "date": "October 3, 2018",
+      "title": "Implementation"
     },
     {
-      "id": "size-vs-scope",
-      "date": "December 17, 2017",
-      "title": "Size vs Scope"
+      "id": "map-projection",
+      "date": "October 4, 2018",
+      "title": "Mercator Map Projection"
     },
     {
-      "id": "biasing-towards-simple",
-      "date": "March 10, 2018",
-      "title": "Biasing Towards Simple"
+      "id": "exhibtion",
+      "date": "October 5, 2018",
+      "title": "Exhibtion Design"
     },
     {
-      "id": "humane-cities",
-      "date": "April 1, 2018",
-      "title": "Humane Cities"
+      "id": "discussion",
+      "date": "October 6, 2018",
+      "title": "Discussion"
     },
     {
-      "id": "dreams",
-      "date": "April 15, 2018",
-      "title": "Dreams"
+      "id": "gallery",
+      "date": "October 7, 2018",
+      "title": "Gallery"
     },
     {
-      "id": "classpass",
-      "date": "April 21, 2018",
-      "title": "ClassPass"
-    },
-    {
-      "id": "travel",
-      "date": "May 25, 2018",
-      "title": "Travel"
-    },
-    {
-      "id": "the-uncomfortable-truth-of-salary",
-      "date": "August 11, 2018",
-      "title": "The Uncomfortable Truth of Salary"
-    },
-    {
-      "id": "the-desire",
-      "date": "August 16, 2018",
-      "title": "The Desire"
+      "id": "budget",
+      "date": "October 8, 2018",
+      "title": "Budget"
     }
   ]
 }
