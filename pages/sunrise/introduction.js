@@ -65,7 +65,7 @@ export default () => (
     </P>
 
     <Figure wide>
-      <Image src="https://github.com/kikolam/site/raw/master/resources/instagram.png" />
+      <Image src="https://github.com/kikolam/site/raw/master/resources/collage.png" />
     </Figure>
 
     <P>

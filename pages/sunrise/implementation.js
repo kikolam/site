@@ -11,7 +11,6 @@ export default () => (
   <Post>
     <Head><title>ClassPass</title></Head>
     <Title>IMPLEMENTATION</Title>
-    <Meta date="April 21, 2018" />
 
     <h3>WebGL</h3>
 
@@ -21,6 +20,10 @@ export default () => (
     tools [openFrameworks, 2015]. OpenFramework gives a lot of support and tools to
     artists and programmers to create computational art work.
     </P>
+
+    <Figure wide>
+      <Image src="https://github.com/kikolam/site/raw/master/resources/sample-1.png" />
+    </Figure>
 
     <h3>Multilayer Perceptron Classifier</h3>
 
@@ -102,6 +105,10 @@ export default () => (
     an algorithm to extract a sky color palette from the images to channel into a composition
     that create an "eternal sunrise".
     </P>
+
+    <Figure wide>
+      <Image src="https://github.com/kikolam/site/raw/master/resources/sample-2.png" />
+    </Figure>
 
     <P>
     My first attempt to extract a palette is to use quantization with the K-means algorithm

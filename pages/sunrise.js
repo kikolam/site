@@ -12,7 +12,7 @@ export default () => (
       {
         posts.length > 0 ?
           posts.map(({ id, date, title }) => (
-            <Post 
+            <Post
               id={id}
               key={id}
               date={date}
@@ -29,7 +29,7 @@ export default () => (
 const Post = ({ id, date, title }) => (
   <div className="post">
     <span className="date">{ date }</span>
-    <Link href={`/${new Date(date).getFullYear()}/${id}`}><a>{ title }</a></Link>
+    <Link href={`/sunrise/${id}`}><a>{ title }</a></Link>
 
     <style jsx>{`
       .post {

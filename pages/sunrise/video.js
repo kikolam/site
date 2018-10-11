@@ -12,6 +12,7 @@ export default () => (
     <Head><title>Collaborative #Sunrise</title></Head>
     <Title>VIDEO & INTERVIEWS</Title>
 
+    <P>(please refresh if the video player doesn't show up) </P>
     <Youtube
       videoId="WNrF1HJqXNE"
     />

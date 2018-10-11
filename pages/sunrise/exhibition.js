@@ -10,11 +10,14 @@ export default () => (
   <Post>
     <Head><title>Exhibition Design Specs</title></Head>
     <Title>EXHIBITION DESIGN SPECS</Title>
-    <Meta date="April 1, 2018" />
 
     <P>
         White silhouettes of trees projected 8 meters high onto the facades of several buildings in a city.
     </P>
+
+    <Figure wide>
+      <Image src="https://github.com/kikolam/site/raw/master/resources/tree.jpg" />
+    </Figure>
 
     <P>
         This project crosses multiple disciplines including Computer Science and Installation
