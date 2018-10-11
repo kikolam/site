@@ -10,14 +10,13 @@ export default () => (
   <Post>
     <Head><title>Gallery</title></Head>
     <Title>GALLERY</Title>
-    <Meta date="August 20, 2017" />
 
     <Figure wide>
       <Image src="https://github.com/kikolam/site/raw/master/resources/5.png" />
     </Figure>
 
     <Figure wide>
-      <Image src="https://github.com/kikolam/site/raw/master/resources/2.png" />
+      <Image src="https://github.com/kikolam/site/raw/master/resources/7.png" />
     </Figure>
 
     <Figure wide>
@@ -37,7 +36,7 @@ export default () => (
     </Figure>
 
     <Figure wide>
-      <Image src="https://github.com/kikolam/site/raw/master/resources/7.png" />
+      <Image src="https://github.com/kikolam/site/raw/master/resources/2.png" />
     </Figure>
 
     <style jsx>{`

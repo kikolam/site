@@ -3,16 +3,17 @@ import Post from '../../layouts/post'
 import Title from '../../components/post/title'
 import Meta from '../../components/post/meta'
 import Snippet from '../../components/post/snippet'
+import { H2 } from '../../components/post/heading'
 import P from '../../components/post/paragraph'
 import OL, { LI as OLI } from '../../components/post/numbers-list'
 import Figure, { Image } from '../../components/post/figure'
 
 export default () => (
   <Post>
-    <Head><title>ClassPass</title></Head>
+    <Head><title>Implementation</title></Head>
     <Title>IMPLEMENTATION</Title>
 
-    <h3>WebGL</h3>
+    <H2>WebGL</H2>
 
     <P>
     This program is written in C++ with the openFramework toolkit. OpenFramework
@@ -25,7 +26,7 @@ export default () => (
       <Image src="https://github.com/kikolam/site/raw/master/resources/sample-1.png" />
     </Figure>
 
-    <h3>Multilayer Perceptron Classifier</h3>
+    <H2>Multilayer Perceptron Classifier</H2>
 
     <P>
     Instagram reached 300 million monthly active users in 2015 and its users share
@@ -97,7 +98,7 @@ export default () => (
     classifier was able to correctly identify most of the false images.
     </P>
 
-    <h3>Color Extraction</h3>
+    <H2>Color Extraction</H2>
 
     <P>
     After the system filters out the unrelated sunrise images from Instagram in real

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Post from '../../layouts/post'
 import Title from '../../components/post/title'
 import Meta from '../../components/post/meta'
-import Snippet from '../../components/post/snippet'
+import { H2 } from '../../components/post/heading'
 import P from '../../components/post/paragraph'
 import OL, { LI as OLI } from '../../components/post/numbers-list'
 
@@ -10,9 +10,8 @@ export default () => (
   <Post>
     <Head><title>Discussions</title></Head>
     <Title>DISCUSSIONS</Title>
-    <Meta date="August 11, 2018" />
 
-    <h3>Time and Nature</h3>
+    <H2>Time and Nature</H2>
     <P>
     The sameness of the sunrise seascape scene brings peacefulness while the everchanging
     colors are dynamic and keep it interesting. After a while, it becomes deeply
@@ -41,7 +40,7 @@ export default () => (
     impossible for humans to power over the nature.
     </P>
 
-    <h3>Technology and Collaboration</h3>
+    <H2>Technology and Collaboration</H2>
     <P>
     This project employs social media channel technologies and methods of appropriation,
     extraction, and intervention, to explore how our generation and society, interact

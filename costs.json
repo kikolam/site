@@ -20,9 +20,15 @@
     },
     {
       "id": "projector",
-      "price": "$1750 * 5 night = $8750",
+      "price": "$1500 * 5 night = $7500",
       "title": "12,000 lumen projectors rental",
-      "more": "(from ultimate outdoor movies austin online quote; before negotiation)"
+      "more": ""
+    },
+    {
+      "id": "monitor",
+      "price": "$500 * 5 night = $2500",
+      "title": "monitor stand rental for map dispaly",
+      "more": ""
     },
     {
       "id": "security",
