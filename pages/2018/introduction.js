@@ -64,6 +64,10 @@ export default () => (
     is uploaded every 1-5 second [Instagram, 2015].
     </P>
 
+    <Figure wide>
+      <Image src="https://github.com/kikolam/site/raw/master/resources/instagram.png" />
+    </Figure>
+
     <P>
     This installation, Collaborative #Sunrise, is started for the above reasons, to create
     an ongoing sunrise watching experience that is collectively created by Instagram users

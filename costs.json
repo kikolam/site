@@ -1,0 +1,40 @@
+{
+  "costs": [
+    {
+      "id": "item",
+      "price": "price",
+      "title": "item",
+      "more": ""
+    },
+    {
+      "id": "coding",
+      "price": "free",
+      "title": "coding",
+      "more": ""
+    },
+    {
+      "id": "facade",
+      "price": "hopefully free",
+      "title": "facade space use",
+      "more": ""
+    },
+    {
+      "id": "projector",
+      "price": "$1750 * 5 night = $8750",
+      "title": "12,000 lumen projectors rental",
+      "more": "(from ultimate outdoor movies austin online quote; before negotiation)"
+    },
+    {
+      "id": "security",
+      "price": "~$1000 (ballpark estimate)",
+      "title": "security for eqipment",
+      "more": ""
+    },
+    {
+      "id": "infrastructure",
+      "price": "~$250 (if host on cloud), free (if run locally)",
+      "title": "software infrastructure cost",
+      "more": ""
+    }
+  ]
+}

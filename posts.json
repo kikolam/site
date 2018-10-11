@@ -2,43 +2,48 @@
   "posts": [
     {
       "id": "abstract",
-      "date": "October 1, 2018",
+      "date": "1",
       "title": "What is it?"
     },
     {
       "id": "introduction",
-      "date": "October 2, 2018",
-      "title": "Introduction"
+      "date": "2",
+      "title": "Motivation"
     },
     {
       "id": "implementation",
-      "date": "October 3, 2018",
-      "title": "Implementation"
+      "date": "3",
+      "title": "Algorithmic Implementation"
     },
     {
       "id": "map-projection",
-      "date": "October 4, 2018",
+      "date": "4",
       "title": "Mercator Map Projection"
     },
     {
-      "id": "exhibtion",
-      "date": "October 5, 2018",
-      "title": "Exhibtion Design"
+      "id": "exhibition",
+      "date": "5",
+      "title": "Exhibtion Design Specs"
     },
     {
       "id": "discussion",
-      "date": "October 6, 2018",
-      "title": "Discussion"
+      "date": "6",
+      "title": "Themes & Discussion"
     },
     {
       "id": "gallery",
-      "date": "October 7, 2018",
+      "date": "7",
       "title": "Gallery"
     },
     {
+      "id": "video",
+      "date": "8",
+      "title": "Video & Interviews"
+    },
+    {
       "id": "budget",
-      "date": "October 8, 2018",
-      "title": "Budget"
+      "date": "9",
+      "title": "$ Budget $"
     }
   ]
 }

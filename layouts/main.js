@@ -6,6 +6,7 @@ export default ({ children }) => (
     <div className="logo">
       <nav>
         <Link href="/"><a>kikolam.com</a></Link>
+        <Link href="/sunrise"><a className="no-margin">sunrise</a></Link>
         <a className="icon" target="_blank" href="mailto:kiko.lam.hk@gmail.com">(contact)</a>
       </nav>
     </div>

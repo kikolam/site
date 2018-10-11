@@ -8,30 +8,36 @@ import OL, { LI as OLI } from '../../components/post/numbers-list'
 
 export default () => (
   <Post>
-    <Head><title>The 1-1</title></Head>
-    <Title>The 1-1</Title>
+    <Head><title>Gallery</title></Head>
+    <Title>GALLERY</Title>
     <Meta date="August 20, 2017" />
 
     <Figure wide>
-      <Image src='../../resources/1.jpg' />
+      <Image src="https://github.com/kikolam/site/raw/master/resources/5.png" />
     </Figure>
 
-    <P>
-    But a good 1-1 can be incredibly valuable to help grow as an engineer, and also provide a perfect opportunity to
-    better know and understand another human being. Here’s the basic tips I try to follow for making the 1-1 as valuable as possible:
-    </P>
-
     <Figure wide>
-      <Image src="resources/2.png" />
+      <Image src="https://github.com/kikolam/site/raw/master/resources/2.png" />
     </Figure>
 
-    <P>
-    Short list, but I think it’s a useful framework to enable productive 1-1 conversations. Just like any conversation,
-    it’s a bit of a learned art, practice helps a lot, and it’s always a work in progress.
-    </P>
+    <Figure wide>
+      <Image src="https://github.com/kikolam/site/raw/master/resources/3.png" />
+    </Figure>
 
     <Figure wide>
-      <Image src="resources/3.png" />
+      <Image src="https://github.com/kikolam/site/raw/master/resources/4.png" />
+    </Figure>
+
+    <Figure wide>
+      <Image src="https://github.com/kikolam/site/raw/master/resources/1.png" />
+    </Figure>
+
+    <Figure wide>
+      <Image src="https://github.com/kikolam/site/raw/master/resources/6.png" />
+    </Figure>
+
+    <Figure wide>
+      <Image src="https://github.com/kikolam/site/raw/master/resources/7.png" />
     </Figure>
 
     <style jsx>{`

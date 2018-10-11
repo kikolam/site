@@ -14,20 +14,21 @@ export default () => (
 
     <P>
     Collaborative #Sunrise is a computational art installation that draws on themes of nature,
-    color, time and social connectedness, using Instagram photos from around the world
-    to create an eternal sunrise.
+    color, time and social connectedness, built a machine learning model that turned Instagram
+    sunrise photos into a real-time algorithmically-generated sunrise. This digital sunrise is
+    projected on facades of building and experienced publicly without bright day light.
     </P>
 
     <P>
-    Collaborative #Sunrise consists of two components, a synthesized digital animation of
-    an Eternal Sunrise and the Collaborative #Sunrise Map. The first component downloads
+    Collaborative #Sunrise consists of two components, a real-time algorithmically-generated
+    sunrise and the Collaborative #Sunrise Map. The first component downloads
     Instagram photos with the hashtag “#sunrise” in real time and uses a machine learning
-    algorithm to filter out advertisements and other unrelated content. Another computer algorithm
+    algorithm to filter out unrelated content. Another computer algorithm
     extracts colors from the photos and channels them into a synthetic animation of what
     the current sunrise looks like. The second component uses a mechanism that pins the Instagram
     photos used to create the synthetic sunrise onto a world map, based on associated
-    geo-location information. The installation itself consists of two 5 by 14 foot images of both
-    the map and artificial sunrise projected onto the sides of the “PlayCube”.
+    geo-location information. The installation itself consists of a 90' by 40' projection of
+    the sunrise on a clear plain colored facade and the map displayed on an interactive monitor nearby.
     </P>
 
     <P>
