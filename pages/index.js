@@ -38,7 +38,7 @@ export default () => (
         <nav>
           <a target="_blank" href="https://www.instagram.com/kiko.lamb/">Instagram</a>
           <a target="_blank" href="https://twitter.com/_babylam">Twitter</a>
-          <a target="_blank" href="https://www.linkedin.com/in/kiko-lam-37a1452a/">LinkedIn</a>
+          <a target="_blank" href="https://www.linkedin.com/in/kikolam/">LinkedIn</a>
         </nav>
       </div>
     </div>
