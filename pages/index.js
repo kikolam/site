@@ -17,18 +17,17 @@ export default () => (
             <b>Summary:</b> I'm a software engineer in the day and a computational artist at night. I'm passionate about the intersection of art and computation. I like learning, climbing, painting, anything that keeps my brain busy. I live in San Francisco, but was raised in Hong Kong. You would likely hear my laugh from miles away.
           </div>
           <div className="section">
-            <b>Work stuff:</b> I work at Twitch, but I don't game.
+            <b>Work stuff:</b> I work at Figma, and I make sourdough bread.
           </div>
           <div className="section">
             <b>Quick Life Story:</b>
             <ul>
               <li>Born in the tropics and was raised in skyscrapers in Hong Kong & Tokyo</li>
               <li>Love travel, love any sort of new experiences</li>
-              <li>Applied in secret to Dartmouth and somehow got in with a full scholarship</li>
+              <li>Escaped from mdecial school in Hong Kong and went to New Hampshire to study at Dartmouth College</li>
               <li>Fell in love with computational art and computer science at the same time</li>
               <li>Convinced the school to let me study both for my MS degree</li>
               <li>Built a machine learning model that turned Instagram sunrise photos into a real-time <a className="no-margin" target="_blank" href="http://www.thedartmouth.com/article/2015/08/kiko-lam-14-presents-masters-thesis-collaborative-sunrise/">algorithmically-generated sunrise</a></li>
-              <li>This was the first computer science thesis to be publicly displayed as an art exhibit at Dartmouth College</li>
               <li>Want to bring art closer to people through computation</li>
               <li>Love to make technology more approchable for everyone</li>
             </ul>
@@ -37,7 +36,7 @@ export default () => (
         <br />
         <nav>
           <a target="_blank" href="https://www.instagram.com/kiko.lamb/">Instagram</a>
-          <a target="_blank" href="https://twitter.com/_babylam">Twitter</a>
+          <a target="_blank" href="https://twitter.com/kiko_lamb">Twitter</a>
           <a target="_blank" href="https://www.linkedin.com/in/kikolam/">LinkedIn</a>
         </nav>
       </div>
