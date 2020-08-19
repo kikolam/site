@@ -1,5 +1,5 @@
 import Page from '../layouts/main'
-import Link from 'next/prefetch'
+import Link from 'next/link'
 import Head from 'next/head'
 import OL, { LI as OLI } from '../components/post/numbers-list'
 
