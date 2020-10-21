@@ -24,7 +24,7 @@ export default () => (
             <ul>
               <li>Born in the tropics and was raised in skyscrapers in Hong Kong & Tokyo</li>
               <li>Love travel, love any sort of new experiences</li>
-              <li>Escaped from mdecial school in Hong Kong and went to New Hampshire to study at Dartmouth College</li>
+              <li>Escaped from medical school in Hong Kong and went to New Hampshire to study at Dartmouth College</li>
               <li>Fell in love with computational art and computer science at the same time</li>
               <li>Convinced the school to let me study both for my MS degree</li>
               <li>Built a machine learning model that turned Instagram sunrise photos into a real-time <a className="no-margin" target="_blank" href="http://www.thedartmouth.com/article/2015/08/kiko-lam-14-presents-masters-thesis-collaborative-sunrise/">algorithmically-generated sunrise</a></li>
